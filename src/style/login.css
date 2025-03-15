@@ -1,0 +1,79 @@
+/* 🌟 Full-Screen Centering */
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #202123; /* Dark background */
+    margin: 0;
+}
+
+/* 🌟 Login Container */
+.login-container {
+    background: #40414f;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 350px;
+}
+
+/* 🌟 Logo / Title */
+.login-container h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* 🌟 Input Fields */
+.login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: #343541;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+/* Placeholder Text Color */
+.login-container input::placeholder {
+    color: #bbb;
+}
+
+/* 🌟 Button */
+.login-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background: #0a84ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.login-container button:hover {
+    background: #0073e6;
+}
+
+/* Sign-up Link */
+.login-container p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: white;
+}
+
+.login-container a {
+    color: #0a84ff;
+    text-decoration: none;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
